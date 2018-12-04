@@ -1,7 +1,12 @@
 from django.views.generic import ListView, DetailView
-from django.views.generic.edit import UpdateView, DeleteView
+from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.urls import reverse_lazy
 from . import models
+
+class ArticleCreateView(CreateView):
+    model = models.Article
+    template_name = 'article_new.html'
+    fields = ['title', 'body', 'author',]
 
 class ArticleListView(ListView):
     model = models.Article
