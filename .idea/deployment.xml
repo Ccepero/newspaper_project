@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="CSNewspaper_blog">
+    <serverData>
+      <paths name="CSNewspaper_blog">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/cindo/newspaper_project" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/home/cindo/newspaper_project/newspaper_project.sock" />
+            <excludedPath path="/newspaper_project/local_settings.py" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
